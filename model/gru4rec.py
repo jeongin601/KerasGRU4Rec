@@ -6,7 +6,7 @@ from tqdm import tqdm
 import keras
 import keras.backend as K
 from keras.models import Model
-from keras.utils import to_categorical
+from tensorflow.keras.utils import to_categorical
 from keras.callbacks import ModelCheckpoint
 from keras.losses import categorical_crossentropy
 from keras.layers import Input, Dense, Dropout, GRU
