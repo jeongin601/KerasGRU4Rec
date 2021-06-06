@@ -10,14 +10,14 @@ import pickle
 import os
 
 tf.disable_v2_behavior()
-tf.flags.DEFINE_string("valid_data", "/content/NARRE/data/music/music_valid.csv", "Data for validation")
-tf.flags.DEFINE_string("test_data", "/content/NARRE/data/music/music_test.csv", "Data for testing")
-tf.flags.DEFINE_string("train_data", "/content/NARRE/data/music/music_train.csv", "Data for training")
-tf.flags.DEFINE_string("user_review", "/content/NARRE/data/music/user_review", "User's reviews")
-tf.flags.DEFINE_string("item_review", "/content/NARRE/data/music/item_review", "Item's reviews")
-tf.flags.DEFINE_string("user_review_id", "/content/NARRE/data/music/user_rid", "user_review_id")
-tf.flags.DEFINE_string("item_review_id", "/content/NARRE/data/music/item_rid", "item_review_id")
-tf.flags.DEFINE_string("stopwords", "/content/NARRE/data/stopwords", "stopwords")
+tf.flags.DEFINE_string("valid_data", "/content/KerasGRU4Rec/data/music/music_valid.csv", "Data for validation")
+tf.flags.DEFINE_string("test_data", "/content/KerasGRU4Rec/data/music/music_test.csv", "Data for testing")
+tf.flags.DEFINE_string("train_data", "/content/KerasGRU4Rec/data/music/music_train.csv", "Data for training")
+tf.flags.DEFINE_string("user_review", "/content/KerasGRU4Rec/data/music/user_review", "User's reviews")
+tf.flags.DEFINE_string("item_review", "/content/KerasGRU4Rec/data/music/item_review", "Item's reviews")
+tf.flags.DEFINE_string("user_review_id", "/content/KerasGRU4Rec/data/music/user_rid", "user_review_id")
+tf.flags.DEFINE_string("item_review_id", "/content/KerasGRU4Rec/data/music/item_rid", "item_review_id")
+tf.flags.DEFINE_string("stopwords", "/content/KerasGRU4Rec/data/stopwords", "stopwords")
 
 def clean_str(string):
     """
