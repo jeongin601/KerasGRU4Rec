@@ -307,7 +307,7 @@ def load_data_and_labels(train_data, valid_data, user_review, item_review, user_
 
 
 if __name__ == '__main__':
-    TPS_DIR = "/content/NARRE/data/music"
+    TPS_DIR = "/content/KerasGRU4Rec/data/music"
     FLAGS = tf.flags.FLAGS
     #FLAGS._parse_flags()
 
